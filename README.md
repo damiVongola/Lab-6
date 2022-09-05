@@ -18,43 +18,43 @@ Classification with SVM's (100 marks)
          - Hint: I used chi-square feature selection because it is easy, fast and gave the same results as recursive feature elimination in previous labs
          - Show which features were selected 
     - Train svm's on the chosen features with the following parameters. 
-     - kernel="linear", C=1.0
-        - Calculate the accuracy and hinge loss on the training set
-        - Calculate the accuracy and hinge loss on the testing set
-        - Plot the decision boundary with each point colored with its groundtruth class in 2D
-          - encircle your support vectors 
-        - Plot the decision boundary with each point colored with its groundtruth class in 3D
-     - kernel="linear", C=100000
-        - Calculate the accuracy and hinge loss on the training set
-        - Calculate the accuracy and hinge loss on the testing set
-        - Plot the decision boundary with each point colored with its groundtruth class in 2D
-          - encircle your support vectors
-        - Plot the decision boundary with each point colored with its groundtruth class in 3D
-     - kernel="linear", C=0.0001
-        - Calculate the accuracy and hinge loss on the training set
-        - Calculate the accuracy and hinge loss on the testing set
-        - Plot the decision boundary with each point colored with its groundtruth class in 2D
-          - encircle your support vectors
-        - Plot the decision boundary with each point colored with its groundtruth class in 3D
-    - kernel="poly", degree=2, coef0=0
-        - Calculate the accuracy and hinge loss on the training set
-        - Calculate the accuracy and hinge loss on the testing set
-        - Plot the decision boundary with each point colored with its groundtruth class in 2D
-          - encircle your support vectors
-    - kernel="poly", degree=2, coef0=1
-        - Calculate the accuracy and hinge loss on the training set
-        - Calculate the accuracy and hinge loss on the testing set
-        - Plot the decision boundary with each point colored with its groundtruth class in 2D
-          - encircle your support vectors
-    - kernel="poly", degree=3, coef0=1
-        - Calculate the accuracy and hinge loss on the training set
-        - Calculate the accuracy and hinge loss on the testing set
-        - Plot the decision boundary with each point colored with its groundtruth class in 2D
-          - encircle your support vectors
-    - kernel="rbf", C=1.0, gamma="scale"
-        - Calculate the accuracy and hinge loss on the training set
-        - Calculate the accuracy and hinge loss on the testing set
-        - Plot the decision boundary with each point colored with its groundtruth class in 2D
-          - encircle your support vectors
+       - kernel="linear", C=1.0
+          - Calculate the accuracy and hinge loss on the training set
+          - Calculate the accuracy and hinge loss on the testing set
+          - Plot the decision boundary with each point colored with its groundtruth class in 2D
+            - encircle your support vectors 
+          - Plot the decision boundary with each point colored with its groundtruth class in 3D
+       - kernel="linear", C=100000
+          - Calculate the accuracy and hinge loss on the training set
+          - Calculate the accuracy and hinge loss on the testing set
+          - Plot the decision boundary with each point colored with its groundtruth class in 2D
+            - encircle your support vectors
+          - Plot the decision boundary with each point colored with its groundtruth class in 3D
+       - kernel="linear", C=0.0001
+          - Calculate the accuracy and hinge loss on the training set
+          - Calculate the accuracy and hinge loss on the testing set
+          - Plot the decision boundary with each point colored with its groundtruth class in 2D
+            - encircle your support vectors
+          - Plot the decision boundary with each point colored with its groundtruth class in 3D
+      - kernel="poly", degree=2, coef0=0
+          - Calculate the accuracy and hinge loss on the training set
+          - Calculate the accuracy and hinge loss on the testing set
+          - Plot the decision boundary with each point colored with its groundtruth class in 2D
+            - encircle your support vectors
+      - kernel="poly", degree=2, coef0=1
+          - Calculate the accuracy and hinge loss on the training set
+          - Calculate the accuracy and hinge loss on the testing set
+          - Plot the decision boundary with each point colored with its groundtruth class in 2D
+            - encircle your support vectors
+      - kernel="poly", degree=3, coef0=1
+          - Calculate the accuracy and hinge loss on the training set
+          - Calculate the accuracy and hinge loss on the testing set
+          - Plot the decision boundary with each point colored with its groundtruth class in 2D
+            - encircle your support vectors
+      - kernel="rbf", C=1.0, gamma="scale"
+          - Calculate the accuracy and hinge loss on the training set
+          - Calculate the accuracy and hinge loss on the testing set
+          - Plot the decision boundary with each point colored with its groundtruth class in 2D
+            - encircle your support vectors
     
         
