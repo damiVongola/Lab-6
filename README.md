@@ -51,7 +51,7 @@ Classification with SVM's (100 marks)
         - Calculate the accuracy and hinge loss on the testing set
         - Plot the decision boundary with each point colored with its groundtruth class in 2D
           - encircle your support vectors
-   - kernel="rbf", C=1.0, gamma="scale"
+    - kernel="rbf", C=1.0, gamma="scale"
         - Calculate the accuracy and hinge loss on the training set
         - Calculate the accuracy and hinge loss on the testing set
         - Plot the decision boundary with each point colored with its groundtruth class in 2D
