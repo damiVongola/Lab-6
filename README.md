@@ -47,7 +47,7 @@ Classification with SVM's (100 marks)
   - Train, predict and plot svm on 3d prepared data with the following configuration:
     - kernel="linear", C=100000
       - Plot 3D graph using binary training data with hyperplane separating the 2 points
-        - Hint: You should have the plane perfectly seperating 2 classes 
+        - Hint: You should have the plane perfectly seperating 2 classes (Our data is easily linear seperable so overfitting is not affecting us harshly)
       - Get the accuracy and hinge loss of the testing set
 
   - Train, predict and plot svm on 2d prepared data with the following configuration: 
@@ -60,7 +60,7 @@ Classification with SVM's (100 marks)
   - Train, predict and plot svm on 3d prepared data with the following configuration:
     - kernel="linear", C=0.0001
       - Plot 3D graph using binary training data with hyperplane separating the 2 points
-        - Hint: You should have the plane perfectly seperating 2 classes 
+        - Hint: You will hot have a plane perfectly seperating the data because it is underfit
       - Get the accuracy and hinge loss of the testing set
 
   - Train, predict and plot svm on 2d prepared data with the following configuration:
