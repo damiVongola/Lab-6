@@ -32,7 +32,8 @@ Classification with SVM's (100 marks)
                 - Refit the model with the binary classification training data
                   - Use the same parameters for this section. i.e: kernel="linear", C=1.0
                 - Plot 3D graph using binary training data with hyperplane separating the 2 points
-                - Plot 3D graph using binary training data with hyperplane separating the 2 points
+                  - Hint: You should have the plane perfectly seperating 2 classes 
+                - Get the accuracy and hinge loss of the testing set
        - kernel="linear", C=100000
           - Calculate the accuracy and hinge loss on the training set
           - Calculate the accuracy and hinge loss on the testing set
@@ -47,7 +48,8 @@ Classification with SVM's (100 marks)
                 - Refit the model with the binary classification training data
                   - Use the same parameters for this section. i.e: kernel="linear", C=1.0
                 - Plot 3D graph using binary training data with hyperplane separating the 2 points
-                - Plot 3D graph using binary training data with hyperplane separating the 2 points
+                  - Hint: You should have the plane perfectly seperating 2 classes (The space is easily seperable so overfitting is not affect us negatively)
+                - Get the accuracy and hinge loss of the testing set
        - kernel="linear", C=0.0001
           - Calculate the accuracy and hinge loss on the training set
           - Calculate the accuracy and hinge loss on the testing set
@@ -62,13 +64,14 @@ Classification with SVM's (100 marks)
                 - Refit the model with the binary classification training data
                   - Use the same parameters for this section. i.e: kernel="linear", C=1.0
                 - Plot 3D graph using binary training data with hyperplane separating the 2 points
-                - Plot 3D graph using binary training data with hyperplane separating the 2 points
-      - kernel="poly", degree=2
+                  - Hint: The plane will not seperate the 2 classes because it is very underfit
+                - Get the accuracy and hinge loss of the testing set
+      - kernel="poly", C=1.0, degree=2, coef0=0.0, gamma="scale"
           - Calculate the accuracy and hinge loss on the training set
           - Calculate the accuracy and hinge loss on the testing set
           - Plot the decision boundary with each point colored with its groundtruth class in 2D
             - encircle your support vectors
-      - kernel="poly", degree=3
+      - kernel="poly", C=1.0, degree=3, coef0=0.0, gamma="scale"
           - Calculate the accuracy and hinge loss on the training set
           - Calculate the accuracy and hinge loss on the testing set
           - Plot the decision boundary with each point colored with its groundtruth class in 2D
@@ -78,5 +81,3 @@ Classification with SVM's (100 marks)
           - Calculate the accuracy and hinge loss on the testing set
           - Plot the decision boundary with each point colored with its groundtruth class in 2D
             - encircle your support vectors
-    
-        
